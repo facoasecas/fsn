@@ -1,6 +1,43 @@
 body {
-padding-top: 5rem;
+	font-weight: 300;
+	font-family: 'Source Serif Pro', sans-serif;
 }
+
+::-webkit-scrollbar { width: 1vh; }
+
+::-webkit-scrollbar-thumb { background-color: #ccc; }
+
+:hover { transition: all ease 0.4s; }
+
+header{
+	min-height: 100vh;
+	background:white url('img/bg.jpg') top right no-repeat;
+	background-size:auto 97%;
+}
+
+
+#abstract{
+	height:60vh;
+}
+
+
+#partes{
+	height:40vh;
+}
+
+h1, h3, h4, h5, h6{
+	font-weight: 600;
+}
+h2{
+	font-weight: 200;
+	color:#D22B4B;
+}
+
+h3{
+	font-family: 'Source Sans Pro', serif;
+	color:#655F61;
+}
+
 aside img{
 filter:grayscale(1);
 }
@@ -12,4 +49,21 @@ h4+p{
 aside h2{
 	text-align: center;
 	color:silver;
+}
+
+.btn{
+		font-family: 'Source Sans Pro', serif;
+		font-weight: 600;
+
+}
+
+.btn-outline-danger{
+	color:#9A71EE;
+	border-color:#9A71EE;
+}
+
+.btn-outline-danger:hover{
+	color:#fff;
+	background:#9A71EE;
+	border-color:#9A71EE;
 }
