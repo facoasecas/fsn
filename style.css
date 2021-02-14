@@ -1,0 +1,15 @@
+body {
+padding-top: 5rem;
+}
+aside img{
+filter:grayscale(1);
+}
+
+h4+p{
+	font-weight: 700;
+}
+
+aside h2{
+	text-align: center;
+	color:silver;
+}
