@@ -91,3 +91,7 @@ footer a{
 footer a:hover{
     color:white;
 }
+
+main, aside, footer{
+    overflow-x:hidden;
+}
