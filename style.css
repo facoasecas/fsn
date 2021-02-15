@@ -20,17 +20,17 @@ body {
 header {
     min-height: 100vh;
     background: white url("img/bg.jpg") center 20px no-repeat;
-    background-size: 100% auto;
+    background-size: 100vw auto;
 }
 
 #abstract {
-    padding-top: 40vh;
+    padding-top: 45vh;
 }
 
 @media (min-width: 768px) {
     header {
-        background: white url("img/bg.jpg") right top no-repeat;
-        background-size: auto 97%;
+        background: white url("img/bg.jpg") right 0 no-repeat;
+        background-size: 47vw auto;
     }
 
     #abstract {
@@ -47,16 +47,18 @@ h1,
 h3,
 h4,
 h5,
-h6 {
+h6,
+strong {
     font-weight: 600;
 }
+
 h2 {
     font-weight: 200;
-    color: #d22b4b;
+    color: #9a71ee;
 }
 
 h2.alt {
-    color: #9a71ee;
+    color: #d22b4b;
 }
 
 h3 {
@@ -90,4 +92,16 @@ aside h2 {
     color: #fff;
     background: #9a71ee;
     border-color: #9a71ee;
+}
+
+strong a{
+    color: #9a71ee;    
+}
+
+footer a{
+    color:silver;
+}
+
+footer a:hover{
+    color:white;
 }

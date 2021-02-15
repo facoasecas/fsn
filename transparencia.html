@@ -7,7 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,600;1,300&display=swap" rel="stylesheet" />
-        <link href="style.css?v=1.0.2" rel="stylesheet" />
+        <link href="style.css?v=1.0.3" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
         <title>Fundación Principia</title>
     </head>
@@ -18,10 +18,13 @@
                     <a class="navbar-brand" href="index.html">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" xml:space="preserve" height="40" widht="40">
                             <g id="jugando">
-                                <path fill="#FCE5F9" d="M76.1,35.1l-11.6-0.2L64.3,22L52,21.8c0,0-28.6,27.2-31.4,29.8c-2.8,2.6-0.8,3.3-0.1,3.4s55.4-3.2,55.4-3.2L76.1,35.1z"/>
-                                <path fill="#1D1D1B" d="M71.1,29l-10.6-0.2l-0.2-11.9L47,16.8c0,0-28.6,26.2-31.4,28.8c-2.8,2.6-0.8,3.3-0.1,3.4c0.7,0.1,46.9,4.3,46.9,4.3l2.1-7.1l6.4-0.4L71.1,29z M48.4,18.8l9.9,0.2l0.2,9.4L22.3,42.4L48.4,18.8z M60.6,50.6l-30.8-2.5l32.1-1.9L60.6,50.6z M68.9,43.8l-49.6,2.6l40.2-15.5l9.5,0.2L68.9,43.8z"/>
+                                <path fill="#FCE5F9" d="M76.1,35.1l-11.6-0.2L64.3,22L52,21.8c0,0-28.6,27.2-31.4,29.8c-2.8,2.6-0.8,3.3-0.1,3.4s55.4-3.2,55.4-3.2L76.1,35.1z" />
+                                <path
+                                    fill="#1D1D1B"
+                                    d="M71.1,29l-10.6-0.2l-0.2-11.9L47,16.8c0,0-28.6,26.2-31.4,28.8c-2.8,2.6-0.8,3.3-0.1,3.4c0.7,0.1,46.9,4.3,46.9,4.3l2.1-7.1l6.4-0.4L71.1,29z M48.4,18.8l9.9,0.2l0.2,9.4L22.3,42.4L48.4,18.8z M60.6,50.6l-30.8-2.5l32.1-1.9L60.6,50.6z M68.9,43.8l-49.6,2.6l40.2-15.5l9.5,0.2L68.9,43.8z"
+                                />
                             </g>
-                            <animateMotion href="#jugando" dur="2.5s" begin="0s" fill="freeze" repeatCount="indefinite" path="M14.8,16.2c1.9-1.6,3.2-4,3.2-6.6C18,4.8,14.1,1,9.4,1S0.9,4.8,0.9,9.5s3.8,8.5,8.5,8.5c1.8,0,3.4-0.5,4.8-1.5"/>
+                            <animateMotion href="#jugando" dur="2.5s" begin="0s" fill="freeze" repeatCount="indefinite" path="M14.8,16.2c1.9-1.6,3.2-4,3.2-6.6C18,4.8,14.1,1,9.4,1S0.9,4.8,0.9,9.5s3.8,8.5,8.5,8.5c1.8,0,3.4-0.5,4.8-1.5" />
                         </svg>
                         Principia
                     </a>
@@ -60,7 +63,7 @@
                             </svg>
                             Transparencia
                         </a>
-                        <a class="btn btn-outline-danger" href="#">
+                        <a class="btn btn-outline-danger" href="donaciones.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash me-1" viewBox="0 0 16 16">
                                 <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
                                 <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z" />
@@ -75,36 +78,33 @@
             <div class="container py-5">
                 <div class="row py-5 d-flex align-items-center">
                     <div class="col-12 mb-3">
-                        <h2 class="border-bottom pb-2 alt">Transparencia</h2>
+                        <h2 class="border-bottom border-light pb-2">Transparencia</h2>
                     </div>
-                    <div class="col-sm-6">
-                        <h3>INGRESOS PRESUPUESTO 2019</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada nibh nec gravida tincidunt. Proin imperdiet pretium auctor. Aliquam suscipit dolor quis ligula tincidunt lobortis. In eu nibh non turpis aliquam porta blandit a velit. Curabitur tincidunt finibus nulla sed scelerisque.</p>
-                        <p>Integer in metus urna. Nullam a eros lectus. Donec viverra tincidunt sem, a porta libero. Cras eros nulla, malesuada et erat eget, accumsan luctus enim. In vel ipsum eget massa aliquet sodales. Etiam fringilla accumsan lectus. Suspendisse pellentesque lacus ut interdum ultricies. Pellentesque imperdiet nunc dolor.</p>
+                    <div class="col-md-7">
+                        <h3>INGRESOS PRESUPUESTO 2021</h3>
+                        <p class="lead">Aliquam suscipit dolor quis ligula tincidunt lobortis. In eu nibh non turpis aliquam porta blandit a velit. Curabitur tincidunt finibus nulla sed scelerisque.</p>
+                        <p>Integer in metus urna. Nullam a eros lectus. Donec viverra tincidunt sem, a porta libero. Cras eros nulla, malesuada et erat eget, accumsan luctus enim.</p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-md-5">
                         <div class="ps-sm-5">
                             <canvas id="ingresos" width="400" height="400"></canvas>
                         </div>
                     </div>
-        
-                    <div class="col-12"><hr class="my-5"></div>
-                    <div class="col-sm-6">
+
+                    <div class="col-12 clearfix my-5"></div>
+                    <div class="col-md-5">
                         <div class="pe-sm-5">
                             <canvas id="egresos" width="400" height="400"></canvas>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <h3>EGRESOS PRESUPUESTO 2019</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada nibh nec gravida tincidunt. Proin imperdiet pretium auctor. Aliquam suscipit dolor quis ligula tincidunt lobortis. In eu nibh non turpis aliquam porta blandit a velit. Curabitur tincidunt finibus nulla sed scelerisque.</p>
-                        <p>Integer in metus urna. Nullam a eros lectus. Donec viverra tincidunt sem, a porta libero. Cras eros nulla, malesuada et erat eget, accumsan luctus enim. In vel ipsum eget massa aliquet sodales. Etiam fringilla accumsan lectus. Suspendisse pellentesque lacus ut interdum ultricies. Pellentesque imperdiet nunc dolor.</p>
+                    <div class="col-md-7">
+                        <h3 class="pt-5 pt-sm-0">EGRESOS PRESUPUESTO 2021</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada nibh nec gravida tincidunt. Proin imperdiet pretium auctor.</p>
+                        <p>In vel ipsum eget massa aliquet sodales. Etiam fringilla accumsan lectus. Suspendisse pellentesque lacus ut interdum ultricies. Pellentesque imperdiet nunc dolor.</p>
                     </div>
-
-
                 </div>
             </div>
         </main>
-                   
 
         <aside>
             <div class="container py-5">
@@ -112,13 +112,12 @@
                     <div class="col-12">
                         <h2 class="mb-5">Colaboradores y alianzas</h2>
                     </div>
-                    <div class="col"><img src="img/logo_cultura.jpg" class="w-100" /></div>
-                    <div class="col"><img src="img/logo_lo_prado.jpg" class="w-100" /></div>
-                    <div class="col"><img src="img/logo_san_joaquin.jpg" class="w-100" /></div>
-                    <div class="col"><img src="img/logo_la_granja.jpg" class="w-100" /></div>
-                    <div class="col"><img src="img/logo_san_ramon.jpg" class="w-100" /></div>
-                    <div class="col"><img src="img/logo_penalolen.jpg" class="w-100" /></div>
-                    <div class="col"><img src="img/logo_nunoa.jpg" class="w-100" /></div>
+                    <div class="col-4 col-md-2"><img src="img/logo_cultura.jpg" class="w-100" /></div>
+                    <div class="col-4 col-md-2"><img src="img/logo_lo_prado.jpg" class="w-100" /></div>
+                    <div class="col-4 col-md-2"><img src="img/logo_la_granja.jpg" class="w-100" /></div>
+                    <div class="col-4 col-md-2"><img src="img/logo_san_ramon.jpg" class="w-100" /></div>
+                    <div class="col-4 col-md-2"><img src="img/logo_penalolen.jpg" class="w-100" /></div>
+                    <div class="col-4 col-md-2"><img src="img/logo_nunoa.jpg" class="w-100" /></div>
                 </div>
             </div>
         </aside>
@@ -126,51 +125,92 @@
         <footer class="bg-dark text-white-50">
             <div class="container pt-3 pb-1">
                 <div class="col-12">
-                    <p class="small d-flex justify-content-between align-items-center"><span>Pie de página</span><a href="https://faco.cl" class="inicialism">BY FACO</a></p>
+                    <p class="small d-flex justify-content-between align-items-center"><span>Principia 2021 ©</span> <span>Privacidad</span> <span><a href="https://faco.cl" class="inicialism">FACO</a> & <a href="https://crissara.com/" class="inicialism">MCSZ</a></span></p>
                 </div>
             </div>
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
+        <script>
+            var segundo = document.getElementById("ingresos").getContext("2d");
+            var segundoGrafico = new Chart(segundo, {
+                type: "doughnut",
+                data: {
+                    labels: ["FONDOS PÚBLICOS", "FONDOS PRIVADOS", "DONACIONES"],
+                    datasets: [
+                        {
+                            data: [40000000, 30000000, 2000000],
+                            backgroundColor: ["#F11E49", "#AA71F1", "#f2aebc"],
+                        },
+                    ],
+                },
+                options: {
+                    cutoutPercentage: 60,
+                    legend: {
+                        position: "bottom",
+                        labels: {
+                            padding: 15,
+                        },
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function (tooltipItem, data) {
+                                var dataLabel = data.labels[tooltipItem.index];
+                                var value = ": $ " + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].toLocaleString("es");
+                                if (Chart.helpers.isArray(dataLabel)) {
+                                    dataLabel = dataLabel.slice();
+                                    dataLabel[0] += value;
+                                } else {
+                                    dataLabel += value;
+                                }
+                                // return the text to display on the tooltip
+                                return dataLabel;
+                            },
+                        },
+                    },
+                },
+            });
 
-<script>
-var segundo = document.getElementById('ingresos').getContext('2d');
-var segundoGrafico = new Chart(segundo, {
-    type: 'doughnut',
-    data: {
-        labels: ['PÚBLICOS', 'PRIVADOS', 'DONACIONES','SERVICIOS'],
-        datasets: [{
-            data: [333512414, 66312240, 62104240,4208000],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.9)',
-                'rgba(54, 162, 235, 0.9)',
-                'rgba(255, 206, 86, 0.9)',
-                'rgba(205, 250, 86, 0.9)'
-                ]
-        }]
-    }
-});
-
-
-var primero = document.getElementById('egresos').getContext('2d');
-var primerGrafico = new Chart(primero, {
-    type: 'doughnut',
-    data: {
-        labels: ['OPERACIÓN Y ADMINISTRACIÓN', 'PERSONAS', 'IMPLEMENTACIÓN DE SALAS'],
-        datasets: [{
-            data: [74835850, 198275034, 92925621],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.9)',
-                'rgba(54, 162, 235, 0.9)',
-                'rgba(255, 206, 86, 0.9)'
-                ]
-        }]
-    }
-});
-
-</script>
+            var primero = document.getElementById("egresos").getContext("2d");
+            var primerGrafico = new Chart(primero, {
+                type: "doughnut",
+                data: {
+                    labels: ["ADMINISTRACIÓN Y FINANZAS", "PERSONAS", "TALLERES"],
+                    datasets: [
+                        {
+                            data: [12000000, 36000000, 24000000],
+                            backgroundColor: ["#F11E49", "#AA71F1", "#f2aebc"],
+                        },
+                    ],
+                },
+                options: {
+                    cutoutPercentage: 60,
+                    legend: {
+                        position: "bottom",
+                        labels: {
+                            padding: 15,
+                        },
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function (tooltipItem, data) {
+                                var dataLabel = data.labels[tooltipItem.index];
+                                var value = ": $ " + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index].toLocaleString("es");
+                                if (Chart.helpers.isArray(dataLabel)) {
+                                    dataLabel = dataLabel.slice();
+                                    dataLabel[0] += value;
+                                } else {
+                                    dataLabel += value;
+                                }
+                                return dataLabel;
+                            },
+                        },
+                    },
+                },
+            });
+        </script>
     </body>
 </html>
