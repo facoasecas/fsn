@@ -11,19 +11,35 @@ body {
 
 header{
 	min-height: 100vh;
-	background:white url('img/bg.jpg') top right no-repeat;
-	background-size:auto 97%;
+	background:white url('img/bg.jpg') top center no-repeat;
+	background-size:100% auto;
 }
 
 
 #abstract{
-	height:60vh;
+	padding-top:55vh;
 }
 
+@media (min-width: 768px) { 
+
+header{
+	background:white url('img/bg.jpg') top right no-repeat;
+	background-size:auto 97%;
+}
+
+#abstract{
+	padding-top:0;
+	height:60vh;
+}
 
 #partes{
 	height:40vh;
 }
+
+}
+
+
+
 
 h1, h3, h4, h5, h6{
 	font-weight: 600;
