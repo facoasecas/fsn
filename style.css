@@ -3,6 +3,7 @@
 body {
     font-weight: 300;
     font-family: "Source Serif Pro", sans-serif;
+    padding-top: 4.5rem;
 }
 
 ::-webkit-scrollbar {
@@ -19,28 +20,6 @@ body {
 
 header {
     min-height: 100vh;
-    background: white url("img/bg.jpg") center 20px no-repeat;
-    background-size: 100vw auto;
-}
-
-#abstract {
-    padding-top: 45vh;
-}
-
-@media (min-width: 768px) {
-    header {
-        background: white url("img/bg.jpg") right 0 no-repeat;
-        background-size: 47vw auto;
-    }
-
-    #abstract {
-        padding-top: 0;
-        height: 60vh;
-    }
-
-    #partes {
-        height: 40vh;
-    }
 }
 
 h1,
@@ -57,9 +36,16 @@ h2 {
     color: #9a71ee;
 }
 
-h2.alt {
-    color: #d22b4b;
+header h2{
+    color: #d22b4b;    
 }
+
+@media (max-width: 768px) {
+    header h2{
+        max-width:70%;
+    }
+}
+
 
 h3 {
     font-family: "Source Sans Pro", serif;
@@ -71,7 +57,7 @@ h4 + p {
 }
 
 aside {
-    background: #e9e9e9;
+    background: #F2F2F2;
 }
 
 aside h2 {
